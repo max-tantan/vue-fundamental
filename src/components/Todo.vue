@@ -13,7 +13,7 @@ const removeTodo = (index) => {
 </script>
 
 <template>
-    <div>
+    <div class="container">
         <button @click="addTodo">Tambah Todo</button>
         <button @click="removeTodo">Hapus Todo</button>
         <ul>
@@ -23,3 +23,12 @@ const removeTodo = (index) => {
         </ul>
     </div>
 </template>
+
+<style>
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+</style>
