@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import PropsDefault from './components/PropsDefault.vue'
 import RefState from './components/RefState.vue'
 import ReactiveState from './components/ReactiveState.vue'
+import Todo from './components/Todo.vue'
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import ReactiveState from './components/ReactiveState.vue'
 
    <PropsDefault />
    <ReactiveState />
+   <Todo />
  </div>
 </template>
 
