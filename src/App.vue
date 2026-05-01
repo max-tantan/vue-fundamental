@@ -4,6 +4,7 @@ import PropsDefault from './components/PropsDefault.vue'
 import RefState from './components/RefState.vue'
 import ReactiveState from './components/ReactiveState.vue'
 import Todo from './components/Todo.vue'
+import InputHandler from './components/InputHandler.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Todo from './components/Todo.vue'
    <PropsDefault />
    <ReactiveState />
    <Todo />
+    <InputHandler />
  </div>
 </template>
 
