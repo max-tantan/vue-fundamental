@@ -6,7 +6,18 @@ import ReactiveState from './components/ReactiveState.vue'
 </script>
 
 <template>
- 
-  <PropsDefault />
-  <ReactiveState />
+ <div class="main">
+
+   <PropsDefault />
+   <ReactiveState />
+ </div>
 </template>
+
+<style setup>
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+</style>
