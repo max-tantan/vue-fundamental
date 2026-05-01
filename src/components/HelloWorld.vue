@@ -1,7 +1,11 @@
 <script setup>
-const pesan = "hello world"
+defineProps({
+  pesan: String,
+  deskripsi: String
+})
 </script>
 
 <template>
-  <p>{{ pesan }}</p>
+  <h2>hello {{ pesan }}</h2>
+  <p>{{ deskripsi }}</p>
 </template>
