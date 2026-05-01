@@ -4,7 +4,7 @@ import { ref } from 'vue'
 const email = ref('')
 
 const handlesumbit = () => {
-    alert(' Email anda dikonfirmasi' + email.value)
+    alert(' Email anda dikonfirmasi ' + email.value)
 }
 </script>
 

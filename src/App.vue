@@ -5,6 +5,7 @@ import RefState from './components/RefState.vue'
 import ReactiveState from './components/ReactiveState.vue'
 import Todo from './components/Todo.vue'
 import InputHandler from './components/InputHandler.vue'
+import SumbitHandler from './components/SumbitHandler.vue'
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import InputHandler from './components/InputHandler.vue'
    <ReactiveState />
    <Todo />
     <InputHandler />
+    <SumbitHandler />
  </div>
 </template>
 
